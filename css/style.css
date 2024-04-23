@@ -1,0 +1,93 @@
+main {
+    padding: 64px 32px;
+    background-color: rgb(201, 76, 76);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.main-title {
+    text-align: center;
+    margin-bottom: 30px; /* Memberikan jarak antara judul dan konten */
+}
+
+.section-celcius, .section-fahrenheit, .section-result, .section-explanation {
+    border-radius: 4px;
+    padding: 16px;
+    background-color: #d6f4d3;
+    margin-top: 16px;
+    box-shadow: 0 2px 6px rgba(100, 100, 200, 0.2); /* Bayangan dengan nuansa biru keabu-abuan */
+}
+
+textarea {
+    width: 100%;
+    height: 32px;
+    resize: none;
+    border: 1px solid #73e369;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: monospace;
+    color: black;
+    padding: 4px; /* Menambahkan padding di dalam textarea */
+}
+
+.container-button {
+    padding-top: 8px;
+}
+
+
+.formula-s {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.formula-s > sub {
+    font-style: normal;
+}
+
+.conversion-title {
+    color: #ff6347;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+button {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background-color 0.3s ease; /* Tambahkan transisi untuk efek hover */
+}
+
+button:hover {
+    background-color: darkgreen; /* Ganti warna saat hover */
+}
+
+#button-reset {
+    background-color: blue;
+}
+
+#button-reset:hover {
+    background-color: darkblue; /* Ganti warna saat hover */
+}
+
+#button-reverse {
+    background-color: palevioletred;
+}
+
+#button-reverse:hover {
+    background-color: deeppink; /* Ganti warna saat hover */
+}
+
